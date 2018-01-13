@@ -1,4 +1,5 @@
 def display_rainbow(colors)
+  rainbow = ""
   for color in colors
     rainbow += "#{color[0].upcase}: #{color}, "
   end

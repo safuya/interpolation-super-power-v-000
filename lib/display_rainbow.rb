@@ -1,7 +1,3 @@
 def display_rainbow(colors)
-  rainbow = ""
-  for color in colors
-    rainbow += "#{color[0].upcase}: #{color}, "
-  end
-  puts rainbow[0...-2]
+  puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
